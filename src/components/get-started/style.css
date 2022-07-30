@@ -172,7 +172,7 @@
     /* Button */
 
 
-box-sizing: border-box;
+    box-sizing: border-box;
     /* Auto layout */
     display: flex;
     flex-direction: row;
@@ -208,7 +208,7 @@ box-sizing: border-box;
     width: 43px;
     height: 19px;
 
-    font-family: 'Inter';
+    /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 500;
     font-size: 16px;

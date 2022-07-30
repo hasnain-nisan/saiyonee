@@ -1,11 +1,11 @@
-import React from 'react'
-import { BiChevronLeft } from 'react-icons/bi';
-import Logo1 from '../../asset/Logo1'
-import Banner from '../../asset/Banner'
+import React from "react";
+import { BiChevronLeft } from "react-icons/bi";
+import Logo1 from "../../asset/Logo1";
+import Banner from "../../asset/Banner";
 
-import './style.css'
+import "./style.css";
 
-const SignUp = () => {
+const Login = () => {
   return (
     <div className="">
       <div className="div1">
@@ -22,7 +22,7 @@ const SignUp = () => {
       <div className="sign-up-container">
         <div className="sign-up-form-container">
           <div className="sign-up-form-text">
-            <p className="sign-up-form-text-main">Create an account</p>
+            <p className="sign-up-form-text-main">Login</p>
             <p className="sign-up-form-text-sub">
               Take a step towards finding someone awesome!
             </p>
@@ -41,13 +41,13 @@ const SignUp = () => {
               </div>
             </div>
             <button className="sign-up-form-btn">
-              <p className="sign-up-form-btn-text">Continue</p>
+              <p className="sign-up-form-btn-text">Login</p>
             </button>
           </div>
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default SignUp
+export default Login;

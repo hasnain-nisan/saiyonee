@@ -1,13 +1,18 @@
 import React from 'react'
-import Logo1 from '../../asset/logo1.png'
+import Banner from '../../asset/Banner';
+import Logo1 from '../../asset/Logo1'
 
 import './style.css'
+
 const GetStarted = () => {
   return (
     <div className="">
       <div className="div1">
+        <Banner type="success" />
         <div className="flex items-center justify-center">
-          <img src={Logo1} alt="Logo1" className="login-logo1" />
+          <div className="logo1">
+            <Logo1 height={145.93} width={44} />
+          </div>
         </div>
       </div>
       <div className="get-started-container">
@@ -26,8 +31,7 @@ const GetStarted = () => {
           </button>
         </div>
         <p className="terms-text">
-          By continuing you agree to our Terms and Privacy Policy.
-          We never post
+          By continuing you agree to our Terms and Privacy Policy. We never post
           to facebook.
         </p>
       </div>

@@ -1,14 +1,17 @@
 .logo1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative; 
     width: 225.53px;
     height: 68px;
     /* left: 82px; */
-    top: -89px;
+    top: -70px;
 }
 
 .tutorial {
     position: relative;
-    top: -200px;
+    top: -170px;
 }
 
 .video {
@@ -93,6 +96,12 @@
     order: 1;
     align-self: stretch;
     flex-grow: 0;
+}
+
+.success-action {
+    margin-left: 2.25rem;
+    margin-right: 2.25rem;
+    margin-top: 35px;
 }
 
 .skip {

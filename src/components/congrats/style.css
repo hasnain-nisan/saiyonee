@@ -1,0 +1,144 @@
+.congrats-text-container {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    gap: 32px;
+
+    position: absolute;
+    width: 326px;
+    height: 142px;
+    /* left: 35px; */
+    /* top: 302px; */
+
+    /* White */
+
+    background: #FFFFFF;
+    /* EV-02 */
+
+    box-shadow: 0px 1px 32px rgba(235, 202, 202, 0.16);
+    border-radius: 24px;
+}
+
+.congrats-text-container-sub {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 262px;
+    height: 78px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.congrats-text-title {
+    width: 262px;
+    height: 38px;
+
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 38px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Main Text */
+
+    color: #1F2937;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.congrats-text-sub {
+    width: 262px;
+    height: 24px;
+
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    /* Sub Text */
+
+    color: #6B7280;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.congrats-btn {
+    box-sizing: border-box;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 19px 66px;
+    gap: 8px;
+
+    position: absolute;
+    width: 326px;
+    height: 57px;
+    left: 32px;
+    top: 720px;
+
+    /* Primary/Primary color */
+
+    background: #FFB7AC;
+    /* Primary/Primary color */
+
+    border: 1px solid #FFB7AC;
+    /* EV-01 */
+
+    box-shadow: 0px 6px 11px rgba(235, 202, 202, 0.3);
+    border-radius: 100px;
+}
+
+.congrats-btn-text {
+    width: 59px;
+    height: 19px;
+
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* Main Text */
+
+    color: #1F2937;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}

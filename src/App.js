@@ -1,16 +1,21 @@
 import './App.css';
-import GetStarted from './components/get-started/GetStarted';
-import SignUp from './components/signup/SignUp';
 import SpalshScreen from './components/splashScreen/SpalshScreen';
 import Success from './components/success/Success';
+import GetStarted from './components/get-started/GetStarted';
+import SignUp from './components/signup/SignUp';
+import Login from "./components/login/Login";
+import Congrats from './components/congrats/Congrats';
+
 
 function App() {
   return (
-    <div className="container mx-auto w-full h-full">
+    <div className="container mx-auto w-full h-[100vh]">
       {/* <SpalshScreen /> */}
       {/* <Success /> */}
       {/* <GetStarted /> */}
-      <SignUp/>
+      {/* <SignUp/> */}
+      {/* <Login/> */}
+      <Congrats/>
     </div>
   );
 }

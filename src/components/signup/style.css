@@ -49,7 +49,7 @@
 
     position: absolute;
     width: 100%;
-    height: 644px;
+    height: calc(100% - 385px);
     left: 0px;
     top: 200px;
 
@@ -245,7 +245,7 @@
     width: 306px;
     height: 57px;
     left: 42px;
-    top: 550px;
+    top: 500px;
 
     /* Primary/Primary color */
 
