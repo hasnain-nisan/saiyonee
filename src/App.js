@@ -14,10 +14,10 @@ function App() {
     <Container fluid>
       {/* <SpalshScreen /> */}
       {/* <Success /> */}
-      <GetStarted />
+      {/* <GetStarted /> */}
       {/* <SignUp/> */}
       {/* <Login/> */}
-      {/* <Congrats/> */}
+      <Congrats/>
     </Container>
   );
 }

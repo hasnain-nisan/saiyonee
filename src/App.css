@@ -9,6 +9,10 @@ body {
   width: 100vw;
 }
 
-h4 {
+h4, p {
   margin: 0px !important;
+}
+
+button {
+  cursor: pointer;
 }
