@@ -1,14 +1,18 @@
 .div1 {
-    /* background-image: url('../../asset/image.jpg'); */
-    /* background-repeat: no-repeat; */
-    /* background-size: 100% 100%; */
+    background-image: url('../../asset/banner.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: auto;
     height: 374px;
+    /* height: calc(100vh - 374px); */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-
+.div2 {
+  height: calc(100vh - 374px);
+}
 
 
 .welcome-text {
@@ -32,10 +36,31 @@
 
 }
 
+.container-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading-spinner {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  /* left: 171px; */
+  top: 682.01px;
+
+  /* Main Text */
+
+  border: 4px dashed #1F2937;
+  border-radius: 50%;
+
+}
+
 .logo {
-    position: relative;
+    position: absolute;
     width: 254px;
     height: 232px;
+    top: 404px;
 }
 
 @keyframes ldio-rl5xt7jtin {

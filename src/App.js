@@ -6,17 +6,19 @@ import SignUp from './components/signup/SignUp';
 import Login from "./components/login/Login";
 import Congrats from './components/congrats/Congrats';
 
+import Container from 'react-bootstrap/Container';
+
 
 function App() {
   return (
-    <div className="container mx-auto w-full h-[100vh]">
+    <Container fluid>
       {/* <SpalshScreen /> */}
       {/* <Success /> */}
-      {/* <GetStarted /> */}
+      <GetStarted />
       {/* <SignUp/> */}
       {/* <Login/> */}
-      <Congrats/>
-    </div>
+      {/* <Congrats/> */}
+    </Container>
   );
 }
 

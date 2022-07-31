@@ -1,20 +1,37 @@
+.success-div {
+    background-image: url('../../asset/banner1.png');
+}
+
 .logo1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative; 
+    position: absolute;
     width: 225.53px;
     height: 68px;
     /* left: 82px; */
-    top: -70px;
+    top: 89px;
 }
 
 .tutorial {
-    position: relative;
-    top: -170px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 326px;
+    height: 408px;
+    /* left: 32px; */
+    top: 220px;
+
+    /* EV-02 */
+
+    filter: drop-shadow(0px 1px 32px rgba(235, 202, 202, 0.16));
 }
 
 .video {
+    width: 326px;
+    height: 258px;
+
     background: rgba(0, 0, 0, 0.26);
     border-radius: 24px 24px 0px 0px;
 
@@ -23,16 +40,17 @@
     flex: none;
     order: 0;
     flex-grow: 0;
+    object-fit: cover;
 }
 
-.tutorial-text {
+.tutorial-text-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 24px;
     gap: 32px;
 
-    width: 326px;
+    /* width: 326px; */
     height: 150px;
 
     /* White */
@@ -47,10 +65,31 @@
     flex-grow: 0;
 }
 
+.tutorial-text {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 278px;
+    height: 102px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
 .tutorial-text-title {
     width: 278px;
     height: 38px;
-    /* font-family: 'Inter'; */
+
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 31px;
@@ -76,7 +115,7 @@
     width: 278px;
     height: 48px;
 
-    /* font-family: 'Inter'; */
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -99,9 +138,18 @@
 }
 
 .success-action {
-    margin-left: 2.25rem;
-    margin-right: 2.25rem;
-    margin-top: 35px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 326px;
+    height: 62px;
+    /* left: 32px; */
+    /* top: 750px; */
+    top: 735px;
 }
 
 .skip {
@@ -130,26 +178,38 @@
 
 
 .btn-next {
-    /* padding: 7px; */
+    /* Auto layout */
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    font-size: 30px;
     /* padding: 12px; */
     gap: 10px;
+
     /* position: absolute; */
-    width: 35px;
-    height: 35px;
-    /* left: 7px; */
-    /* top: 7px; */
+    width: 48px;
+    height: 48px;
+    left: 7px;
+    top: 7px;
+
+    /* Primary/Primary color */
+
     background: #FFB7AC;
     border-radius: 100px;
+    border-color: transparent;
 }
 
 .btn-next-div {
+    position: relative;
+    width: 62px;
+    /* height: 62px; */
     left: 0px;
     top: 0px;
+
+    /* Less priority */
+
     border: 3px solid #E5E7EB;
-    padding: 3px;
-    border-radius: 100px;
+    padding: 5px;
+    border-radius: 50%;
 }
