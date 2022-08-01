@@ -1,0 +1,50 @@
+{
+    "title": "User Type",
+    "formInput": [
+        {
+            "id": 1,
+            "question": "My Self",
+            "inputName": "myself"
+        },
+        {
+          "id": 2,
+          "question": "My Son",
+          "inputName": "myson"
+        },
+        {
+          "id": 3,
+          "question": "My Daugther",
+          "inputName": "mydaughter"
+        },
+        {
+           "id": 4,
+          "question": "My Sister",
+          "inputName": "mysister"
+        },
+        {
+           "id": 5,
+          "question": "My Brother",
+          "inputName": "mybrother"
+        },
+        {
+           "id": 6,
+          "question": "My Friend",
+          "inputName": "myfriend"
+        },
+        {
+           "id": 7,
+          "question": "My Cousin",
+          "inputName": "mycousin"
+        },
+        {
+          "id": 8,
+          "question": "My Cousin",
+          "inputName": "mycousin"
+        },
+        {
+          "id": 9,
+          "question": "My Cousin",
+          "inputName": "mycousin"
+        }
+    ]
+}

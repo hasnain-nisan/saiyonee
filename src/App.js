@@ -7,6 +7,7 @@ import Login from "./components/login/Login";
 import Congrats from './components/congrats/Congrats';
 
 import Container from 'react-bootstrap/Container';
+import UserType from './components/UserType/UserType';
 
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
       {/* <GetStarted /> */}
       {/* <SignUp/> */}
       {/* <Login/> */}
-      <Congrats/>
+      {/* <Congrats/> */}
+      <UserType/>
     </Container>
   );
 }
