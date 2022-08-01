@@ -50,7 +50,7 @@
     width: 239px;
     height: 76px;
 
-    font-family: 'Inter';
+    /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 500;
     font-size: 31px;
@@ -152,7 +152,7 @@
     width: 142px;
     height: 19px;
 
-    font-family: 'Inter';
+    /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -233,7 +233,8 @@
     position: absolute;
     width: 296.39px;
     /* left: calc(50% - 296.39px/2 - 0px); */
-    top: 91.23%;
+    /* top: 91.23%; */
+    top: 550px;
     bottom: 4.03%;
 
     /* font-family: 'Inter'; */

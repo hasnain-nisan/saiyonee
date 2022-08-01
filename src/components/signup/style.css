@@ -102,7 +102,7 @@
     width: 333.12px;
     height: 38px;
 
-    font-family: 'Inter';
+    /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 500;
     font-size: 31px;
@@ -126,7 +126,7 @@
     width: 315.93px;
     height: 38px;
 
-    font-family: 'Inter';
+    /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -211,7 +211,7 @@
     width: 302px;
     height: 19px;
 
-    font-family: 'Inter';
+    /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -243,11 +243,12 @@
 
     /* position: absolute; */
     position: relative;
-    width: 306px;
+    /* width: 306px; */
+    width: 325px;
     height: 57px;
     /* left: 42px; */
     /* top: 500px; */
-    top: 175px;
+    top: 200px;
 
     /* Primary/Primary color */
 
@@ -266,7 +267,7 @@
     width: 70px;
     height: 19px;
 
-    font-family: 'Inter';
+    /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 500;
     font-size: 16px;

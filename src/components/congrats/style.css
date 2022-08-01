@@ -10,8 +10,8 @@
     gap: 32px;
 
     position: absolute;
-    /* width: 326px; */
-    width: 250px;
+    width: 326px;
+    /* width: 250px; */
     height: 142px;
     /* left: 35px; */
     top: 302px;
@@ -49,7 +49,7 @@
     width: 262px;
     height: 38px;
 
-    font-family: 'Inter';
+    /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 500;
     font-size: 31px;
@@ -75,7 +75,7 @@
     width: 262px;
     height: 24px;
 
-    font-family: 'Inter';
+    /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -111,7 +111,8 @@
     width: 326px;
     height: 57px;
     /* left: 32px; */
-    top: 720px;
+    /* top: 720px; */
+    top: 755px;
 
     /* Primary/Primary color */
 
@@ -129,7 +130,7 @@
     width: 59px;
     height: 19px;
 
-    font-family: 'Inter';
+    /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 500;
     font-size: 16px;

@@ -89,7 +89,7 @@
     width: 278px;
     height: 38px;
 
-    font-family: 'Inter';
+    /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 500;
     font-size: 31px;
@@ -115,7 +115,7 @@
     width: 278px;
     height: 48px;
 
-    font-family: 'Inter';
+    /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -148,8 +148,7 @@
     width: 326px;
     height: 62px;
     /* left: 32px; */
-    /* top: 750px; */
-    top: 735px;
+    top: 750px;
 }
 
 .skip {
@@ -203,7 +202,7 @@
 .btn-next-div {
     position: relative;
     width: 62px;
-    /* height: 62px; */
+    height: 62px;
     left: 0px;
     top: 0px;
 
@@ -212,4 +211,8 @@
     border: 3px solid #E5E7EB;
     padding: 5px;
     border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

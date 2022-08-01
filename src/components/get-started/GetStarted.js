@@ -25,10 +25,10 @@ const GetStarted = () => {
             </p>
           </Row>
           <Row className="button-container">
-            <button className="btn sign-up-btn">
+            <button className="sign-up-btn">
               <p className="sign-up-btn-text">Sign Up with Email</p>
             </button>
-            <button className="btn login-btn">
+            <button className="login-btn">
               <p className="login-btn-text">Login</p>
             </button>
           </Row>

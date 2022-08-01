@@ -16,3 +16,16 @@ h4, p {
 button {
   cursor: pointer;
 }
+
+.row {
+  --bs-gutter-x : 0px !important;
+  margin: 0px !important;
+}
+
+.container-fluid {
+  --bs-gutter-x: 0px !important;
+}
+
+/* #root {
+  overflow-x: hidden;
+} */
