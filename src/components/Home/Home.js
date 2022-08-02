@@ -20,10 +20,22 @@ const Home = () => {
         </div>
       </div>
       <div className="container-center float-menu">
-        <HomeIcon/>
-        <ExploreIcon/>
-        <MessageIcon/>
-        <SettingsIcon1/>
+        <div className="float-menu-icon">
+          <HomeIcon />
+          <p>Home</p>
+        </div>
+        <div className="float-menu-icon">
+          <ExploreIcon />
+          <p>Explore</p>
+        </div>
+        <div className="float-menu-icon">
+          <MessageIcon />
+          <p>Message</p>
+        </div>
+        <div className="float-menu-icon">
+          <SettingsIcon1 />
+          <p>Settings</p>
+        </div>
       </div>
     </div>
   );

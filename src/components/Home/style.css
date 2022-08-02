@@ -39,3 +39,10 @@
     /* White */
     background: #FFFFFF;
 }
+
+.float-menu-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
