@@ -8,6 +8,7 @@ import Congrats from './components/congrats/Congrats';
 
 import Container from 'react-bootstrap/Container';
 import UserType from './components/UserType/UserType';
+import UserName from './components/UserName/UserName';
 
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
       {/* <SignUp/> */}
       {/* <Login/> */}
       {/* <Congrats/> */}
-      <UserType/>
+      {/* <UserType/> */}
+      <UserName/>
     </Container>
   );
 }

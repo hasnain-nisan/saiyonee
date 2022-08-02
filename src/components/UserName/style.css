@@ -1,0 +1,87 @@
+.user-name-sub-text {
+    /* width: 285px; */
+    height: 24px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* Sub Text */
+
+    color: #6B7280;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.user-from-title-container-user-name {
+    gap: 50px !important;
+}
+
+.user-form-input-container-user-name {
+    top: 280px !important;
+    overflow-x: hidden !important;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 19px 14px;
+    gap: 8px;
+
+    /* width: 327px; */
+    width: 100%;
+    height: 57px;
+
+    /* White */
+
+    background: #FFFFFF;
+    border-radius: 12px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border: none;
+
+    font-family: 'Inter';
+    color: #6B7280;
+    margin: 5px 0px 5px 0px
+}
+
+
+.form-input::-webkit-input-placeholder {
+	width: 299px;
+    height: 19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* Sub Text */
+
+    color: #6B7280;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.form-input:focus-visible {
+    outline: none;
+}
