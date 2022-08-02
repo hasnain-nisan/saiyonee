@@ -1,0 +1,151 @@
+.user-form-gender-container {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    width: 326px;
+    height: 88px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.user-form-gender-container-title {
+    width: 315.93px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* Main Text */
+
+    color: #1F2937;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.user-form-gender-options-container {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 326px;
+    height: 57px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.user-form-gender-option-not-selected {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 19px 12px;
+    gap: 2px;
+
+    width: 155px;
+    height: 57px;
+
+    /* White */
+    background: #FFFFFF;
+
+    /* EV-02 */
+    box-shadow: 0px 1px 32px rgba(235, 202, 202, 0.16);
+    border-radius: 12px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+}
+
+
+.user-form-gender-option-text-not-selected {
+    width: 55px;
+    height: 19px;
+
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* Sub Text */
+    color: #6B7280;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.user-form-gender-option-selected {
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 19px 12px;
+    gap: 2px;
+
+    width: 155px;
+    height: 57px;
+
+    /* Primary/Primary color */
+    background: #FFB7AC;
+
+    /* Primary/Primary color */
+    border: 1.5px solid #FFB7AC;
+    border-radius: 12px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.user-form-gender-option-text-selected {
+    width: 37px;
+    height: 19px;
+
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* Main Text */
+    color: #1F2937;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
