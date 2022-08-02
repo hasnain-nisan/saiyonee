@@ -25,14 +25,14 @@ const Gender = () => {
             <div className="user-form-gender-options-container">
               <div>
                 <input
-                  class="form-check-input gender-input d-none"
+                  className="form-check-input gender-input d-none"
                   type="radio"
                   name="genderRadio"
                   id="inlineRadio1"
                   value="Male"
                   onChange={changeSelectedGender}
                 />
-                <label class="form-check-label" for="inlineRadio1">
+                <label className="form-check-label" for="inlineRadio1">
                   <div className="user-gender-options user-form-gender-option-selected">
                     <p className="user-form-gender-option-text-selected">
                       Male
@@ -42,14 +42,14 @@ const Gender = () => {
               </div>
               <div>
                 <input
-                  class="form-check-input gender-input d-none"
+                  className="form-check-input gender-input d-none"
                   type="radio"
                   name="genderRadio"
                   id="inlineRadio2"
                   value="Female"
                   onChange={changeSelectedGender}
                 />
-                <label class="form-check-label" for="inlineRadio2">
+                <label className="form-check-label" for="inlineRadio2">
                   <div className="user-gender-options user-form-gender-option-not-selected">
                     <p className="user-form-gender-option-text-not-selected">
                       Female

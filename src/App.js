@@ -10,6 +10,7 @@ import UserName from './components/UserName/UserName';
 import Gender from './components/Gender/Gender';
 
 import Container from 'react-bootstrap/Container';
+import Home from './components/Home/Home';
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       {/* <Congrats/> */}
       {/* <UserType/> */}
       {/* <UserName/> */}
-      <Gender/>
+      {/* <Gender/> */}
+      <Home/>
     </Container>
   );
 }
